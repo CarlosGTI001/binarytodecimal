@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Conversor_de_BIN_y_DEC
@@ -24,21 +17,17 @@ namespace Conversor_de_BIN_y_DEC
 
         private void btnConvertBaD_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtBinario.Text))
-            {
+            if (!string.IsNullOrEmpty(txtBinario.Text)|| txtBinario.Text.Length == 8)
                 txtDecimal.Text = bintodac(txtBinario.Text);
-            }
             else
-            {
-                MessageBox.Show("Error", "Debes ingresar algun dato!");
-            }
+                if(txtBinario.Text.Length < 8)
+                    MessageBox.Show("Debes ingresar un numero binario completo!", "Error");
+                if (string.IsNullOrEmpty(txtBinario.Text))
+                    MessageBox.Show("Debes ingresar un valor para continuar!", "Error");
         }
         public string bintodac(string dec)
         {
-
-           
             int decima = 0;
-
             char[] bit = dec.ToCharArray(0, 8);
             int valor = 1;
             for(int contador = 8; contador > 0; contador--) {
@@ -52,8 +41,6 @@ namespace Conversor_de_BIN_y_DEC
                     valor = valor * 2;
                 }
             }
-            
-
             return (Convert.ToString(decima));
         }
 

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Conversor_de_BIN_y_DEC
@@ -20,13 +13,20 @@ namespace Conversor_de_BIN_y_DEC
         private void btnConvertDaB_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(txtDecimal.Text))
-            {
-                txtBinario.Text = dactobin(Convert.ToInt32(txtDecimal.Text));
-            }
+                try
+                {
+                    txtBinario.Text = dactobin(Convert.ToInt32(txtDecimal.Text));
+                }
+                catch(FormatException)
+                {
+                    MessageBox.Show("Debes ingresar un valor numerico", "Error");
+                }
+                catch
+                {
+                    MessageBox.Show("Debes ingresar datos para continuar", "Error");
+                }
             else
-            {
                 MessageBox.Show("Alerta", "Alerta2");
-            }
         }
 
         public string dactobin(int dec)
