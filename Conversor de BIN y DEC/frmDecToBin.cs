@@ -12,7 +12,7 @@ namespace Conversor_de_BIN_y_DEC
 
         private void btnConvertDaB_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtDecimal.Text))
+            
                 try
                 {
                     txtBinario.Text = dactobin(Convert.ToInt32(txtDecimal.Text));
@@ -25,8 +25,7 @@ namespace Conversor_de_BIN_y_DEC
                 {
                     MessageBox.Show("Debes ingresar datos para continuar", "Error");
                 }
-            else
-                MessageBox.Show("Alerta", "Alerta2");
+           
         }
 
         public string dactobin(int dec)
