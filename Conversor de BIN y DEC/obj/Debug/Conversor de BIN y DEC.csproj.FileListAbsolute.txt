@@ -1,0 +1,11 @@
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\bin\Debug\Conversor de BIN y DEC.exe.config
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\bin\Debug\Conversor de BIN y DEC.exe
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\bin\Debug\Conversor de BIN y DEC.pdb
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor de BIN y DEC.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor_de_BIN_y_DEC.frmDashboard.resources
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor_de_BIN_y_DEC.frmBinToDec.resources
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor_de_BIN_y_DEC.Properties.Resources.resources
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor de BIN y DEC.csproj.GenerateResource.Cache
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor de BIN y DEC.exe
+c:\users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor de BIN y DEC.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\Conversor de BIN y DEC\Conversor de BIN y DEC\obj\Debug\Conversor_de_BIN_y_DEC.frmDecToBin.resources
