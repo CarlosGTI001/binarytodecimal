@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a0af1d32-6420-485e-806e-49b4259fd6ac": {
+      "ProjectGuid": "a0af1d32-6420-485e-806e-49b4259fd6ac",
+      "DisplayName": "Conversor de BIN y DEC",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
